@@ -13,6 +13,8 @@
 		FB88E7EC28EE6A7A000E1446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB88E7EA28EE6A7A000E1446 /* Main.storyboard */; };
 		FB88E7EE28EE6A7F000E1446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB88E7ED28EE6A7F000E1446 /* Assets.xcassets */; };
 		FB88E7F128EE6A7F000E1446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB88E7EF28EE6A7F000E1446 /* LaunchScreen.storyboard */; };
+		FB88E7FA28EE6C15000E1446 /* FordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88E7F928EE6C15000E1446 /* FordCollectionViewCell.swift */; };
+		FB88E82428EE7C41000E1446 /* Carros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88E82328EE7C41000E1446 /* Carros.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FB88E7ED28EE6A7F000E1446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB88E7F028EE6A7F000E1446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB88E7F228EE6A7F000E1446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB88E7F928EE6C15000E1446 /* FordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FordCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB88E82328EE7C41000E1446 /* Carros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carros.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FB88E7ED28EE6A7F000E1446 /* Assets.xcassets */,
 				FB88E7EF28EE6A7F000E1446 /* LaunchScreen.storyboard */,
 				FB88E7F228EE6A7F000E1446 /* Info.plist */,
+				FB88E7F928EE6C15000E1446 /* FordCollectionViewCell.swift */,
+				FB88E82328EE7C41000E1446 /* Carros.swift */,
 			);
 			path = Actividad8iOS;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB88E7E928EE6A7A000E1446 /* ViewController.swift in Sources */,
+				FB88E7FA28EE6C15000E1446 /* FordCollectionViewCell.swift in Sources */,
 				FB88E7E528EE6A7A000E1446 /* AppDelegate.swift in Sources */,
 				FB88E7E728EE6A7A000E1446 /* SceneDelegate.swift in Sources */,
+				FB88E82428EE7C41000E1446 /* Carros.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
